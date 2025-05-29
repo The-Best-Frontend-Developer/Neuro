@@ -20,7 +20,7 @@ const Second = () => {
                     <p className="text-xl text-center">That’s why we create products to help shift your mindset with
                         ease and flow. Our functional gum and mints are shortcuts to the ideal state of mind, delivering
                         just the right amount of what you need to energize, calm and focus your mind in the moment.</p>
-                    <img src="/public/SecondSectionImage.png" alt="zone" loading="lazy"/>
+                    <img src="/SecondSectionImage.png" alt="zone" loading="lazy"/>
                 </div>
                 <div className="flex flex-col items-center mx-auto gap-5">
                     <h3>Shop by function</h3>
