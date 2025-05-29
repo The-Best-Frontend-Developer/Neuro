@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/public/Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/public/Roboto-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+}
+
+div, span, p, a, button, Link {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+.my-button {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    padding-block: 18px;
+    width: 260px;
+}
+
+.bg-image-first {
+    background: url("/public/FirstSectionImage.png") no-repeat center / cover;
+}
+
+.bg-image-eight {
+    background: url("/public/EighthSection.png") no-repeat center / cover;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
